@@ -1,3 +1,4 @@
+#%%
 import matplotlib.pyplot as plt
 import numpy as np
 
@@ -14,6 +15,7 @@ ax.set_title('sin(x) and cos(x)')
 ax.set_yticks([-1, 0, 1])
 ax.set_xticks([0, 5, 10])
 ax.legend()
-# location
+# ax.grid(True)
 # ax.legend(loc='upper center')
 plt.show()
+# %%
